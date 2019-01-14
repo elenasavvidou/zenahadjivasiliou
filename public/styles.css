@@ -208,7 +208,7 @@ ul {
 
 
 section, footer {
-  padding: 100px 150px 120px 150px;
+  padding: 10px 150px 80px 150px;
 }
 
 
@@ -252,3 +252,23 @@ div.fade-bg {
   opacity: 0;
 
 }
+
+
+/* section div.wrapper a span {
+  transition: color 1s;
+}
+
+section div.wrapper a span:hover {
+  transition: color 0s;
+}
+
+section div.wrapper a span:nth-child(1n):hover {
+  color: gold;
+}
+
+section div.wrapper a span:nth-child(2n):hover {
+  color: orange;
+}
+section div.wrapper a span:nth-child(3n):hover {
+  color: papayawhip;
+} */
