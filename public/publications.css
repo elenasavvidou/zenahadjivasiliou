@@ -28,11 +28,13 @@ section.name a{
 section {
     padding-top: 10px;
 }
-section p {
+
+section.publications p {
   font-size: 1.5em;
   padding-left: 150px;
   max-width: 1000px;
 }
+
 
 h2 {
   padding-left: 50px;
@@ -42,4 +44,98 @@ h2 {
 h1 {
   padding-left: 50px;
   max-width: 1000px;
+}
+
+
+/* NAV */
+
+.row {
+  display: flex;
+  padding: 50px 0px 0px 0px;
+  /* background-color: coral; */
+}
+
+/* .item:hover {
+  background-color: rgb(167, 216, 249);
+  transition: 2s ease;
+} */
+
+.item {
+  flex: 1 1 30%;
+  padding-left: 5.5rem;
+  padding-right: 3.5rem;
+}
+
+.item:first-child {
+  padding-left: 0px;
+}
+
+/* Vertical flex: items */
+
+.item {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-heading {
+  flex: 1;
+}
+
+/* Third flex: item heading*/
+
+.item-heading {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  margin: 0;
+}
+
+
+h1.aboutme {
+  padding-left: 50px;
+  max-width: 1000px;
+}
+
+section .item-image {
+  width: 100%;
+  cursor: pointer;
+  border-style: solid;
+  border-color: rgb(131, 228, 100);
+}
+
+section .item-image:hover {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+  -moz-box-shadow: 0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+  box-shadow: 0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+}
+
+img {
+  display: inline;
+  margin: 30 auto;
+  /* height: 100%; */
+  width: auto;
+  object-fit: cover;
+}
+
+/* section p {
+  max-width: 500px;
+} */
+
+section.nav{
+  max-width: 1000px;
+  padding: 80px 150px 80px 150px;
+}
+
+
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row;
+  justify-content: space-around;
+  text-align: left;
+  background-color: #f3e5f5;
+  padding: 1px;
 }

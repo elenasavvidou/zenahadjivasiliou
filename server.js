@@ -17,6 +17,10 @@ app.get('/publications', (req, res) => {
   res.sendFile(path.join(__dirname, './publications.html'));
 });
 
+app.get('/research', (req, res) => {
+  res.sendFile(path.join(__dirname, './research.html'));
+});
+
 app.listen(process.env.PORT || 4000, function(){
     console.log('Your node js server is running');
 });

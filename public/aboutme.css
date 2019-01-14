@@ -134,3 +134,14 @@ section.nav{
     max-width: 1000px;
   padding: 80px 150px 80px 150px;
 }
+
+
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row;
+  justify-content: space-around;
+  text-align: left;
+  background-color: #f3e5f5;
+  padding: 1px;
+}
