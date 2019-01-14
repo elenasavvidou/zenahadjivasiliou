@@ -7,37 +7,34 @@ body {
 }
 
 section.name {
-    font-size: 5.3em;
-    display: flex;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
-    top: 5px;
-    padding: 0px 300px 0px 300px;
-    /* position: fixed; */
-    margin: auto;
-    text-shadow: 2px 1px #feeec7;
+  font-size: 5.3em;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  top: 5px;
+  padding: 0px 300px 0px 300px;
+  /* position: fixed; */
+  margin: auto;
+  text-shadow: 2px 1px #feeec7;
 }
 
-section.name a{
+section.name a {
   color: black;
   text-decoration: none;
   text-shadow: 2px 2px #f2eaf9;
 }
 
-
 section {
-padding-top: 10px;
-
+  padding-top: 10px;
 }
 
 section p.about {
-font-size: 1.2em;
-line-height: 1.5em;
+  font-size: 1.2em;
+  line-height: 1.5em;
   padding-left: 150px;
-  padding-top: 50px;
+  padding-top: 70px;
   max-width: 1000px;
 }
-
 
 a {
   color: black;
@@ -48,7 +45,7 @@ a {
 
 .row {
   display: flex;
-padding: 50px 0px 0px 0px;
+  padding: 50px 0px 0px 0px;
   /* background-color: coral; */
 }
 
@@ -61,7 +58,6 @@ padding: 50px 0px 0px 0px;
   flex: 1 1 30%;
   padding-left: 5.5rem;
   padding-right: 3.5rem;
-
 }
 
 .item:first-child {
@@ -100,10 +96,9 @@ padding: 50px 0px 0px 0px;
 } */
 
 h1.aboutme {
-      padding-left: 50px;
-      max-width: 1000px;
+  padding-left: 50px;
+  max-width: 1000px;
 }
-
 
 section .item-image {
   width: 100%;
@@ -114,23 +109,28 @@ section .item-image {
   /* box-shadow: 2px 1px rgb(167, 216, 249); */
 }
 
-section .item-image:hover{
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
- -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 255, 0, 0.67);
--moz-box-shadow:    0px 0px 30px 0px rgba(0, 255, 0, 0.67);
-box-shadow:         0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+section .item-image:hover {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+  -moz-box-shadow: 0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+  box-shadow: 0px 0px 30px 0px rgba(0, 255, 0, 0.67);
 }
 
 img {
-    display: inline;
-    margin: 30 auto;
-    /* height: 100%; */
-    width: auto;
-    object-fit: cover;
+  display: inline;
+  margin: 30 auto;
+  /* height: 100%; */
+  width: auto;
+  object-fit: cover;
 }
 
 section p {
   max-width: 500px;
+}
+
+section.nav{
+    max-width: 1000px;
+  padding: 80px 150px 80px 150px;
 }
