@@ -1,6 +1,6 @@
 body {
-  font-family: Work Sans;
-  font-size: 16px;
+  font-family: 'Noto Serif TC', serif;
+  font-size: 13px;
   line-height: 1.5;
   background-color: #ffffff;
   color: #333333;
@@ -10,7 +10,7 @@ body {
 
 
 h1 {
-  font-family: Calendas Plus;
+  font-family: 'Noto Serif TC', serif;
   font-size: 34px;
   font-weight: 700;
   margin: 0 0 50px 0;
@@ -58,10 +58,11 @@ justify-content: center;
 /* ZENA HADJIVASILIOU */
 
 section.name {
-    font-size: 5.3em;
+
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;
+    font-size: 5.3em;
     top: 5px;
     padding: 0px 300px 0px 300px;
     position: fixed;
