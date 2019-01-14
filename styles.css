@@ -1,0 +1,253 @@
+body {
+  font-family: Work Sans;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #ffffff;
+  color: #333333;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+
+h1 {
+  font-family: Calendas Plus;
+  font-size: 34px;
+  font-weight: 700;
+  margin: 0 0 50px 0;
+  color: black;
+
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  text-shadow: 2px 2px #f2eaf9;
+}
+
+p {
+  margin: 20px 0 20px 0;
+}
+
+
+/* INTRO */
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 200px 0px 120px 0px;
+}
+
+.intro-text-container{
+  /* background-color: red; */
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+
+.intro-img {
+     width: 300px;
+     height: 300px;
+     position: relative;
+     overflow: hidden;
+     border-radius: 50%;
+}
+
+
+/* ZENA HADJIVASILIOU */
+
+section.name {
+    font-size: 5.3em;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    top: 5px;
+    padding: 0px 300px 0px 300px;
+    position: fixed;
+    margin: auto;
+}
+
+
+/* NAVMENU SECTION */
+
+.row {
+  display: flex;
+padding: 50px 0px 0px 0px;
+  /* background-color: coral; */
+}
+
+/* .item:hover {
+  background-color: rgb(167, 216, 249);
+  transition: 2s ease;
+} */
+
+.item {
+  flex: 1 1 30%;
+  padding-left: 5.5rem;
+  padding-right: 3.5rem;
+
+}
+
+.item:first-child {
+  padding-left: 0px;
+}
+
+/* Vertical flex: items */
+
+.item {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-heading {
+  flex: 1;
+}
+
+/* Third flex: item heading*/
+
+.item-heading {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  margin: 0;
+  /* flex-direction: column; */
+  /* padding: 10px 10px 10px 10px; */
+}
+
+
+/* section.nav {
+  background-color: green;
+
+} */
+
+
+/* images in a row */
+
+section .item-image {
+  width: 100%;
+  cursor: pointer;
+  border-style: solid;
+  border-color: rgb(131, 228, 100);
+  /* border: 2px 1px rgb(167, 216, 249); */
+  /* box-shadow: 2px 1px rgb(167, 216, 249); */
+}
+
+section .item-image:hover{
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+ -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+-moz-box-shadow:    0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+box-shadow:         0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+}
+
+
+/* dropmenu */
+
+.li {
+  display: flex;
+  flex-direction: column;
+  margin: 8px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  display: block;
+  font-size: 20px;
+  color: black;
+  transition: 0.2s ease;
+  border-left: 1px solid #f2eaf9;
+}
+
+ul:hover a {
+  opacity: 0.3;
+
+}
+
+ul a:hover {
+  opacity: 1;
+}
+
+ul {
+  list-style: none;
+}
+
+
+/* .li {
+
+  background-color: rgba(0,0,0,.15);
+    align-items: flex-start;
+    color: #fff;
+    display: flex;
+    font-size: 1.55rem;
+    font-weight: 200;
+    letter-spacing: 1px;
+    max-width: 130px;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0,0,0,.1);
+    transition: all linear 0.1s;
+
+
+    color: rgba(255,255,255,.9);
+							display: block;
+							font-size: .75rem;
+							letter-spacing: 1.5px;
+							padding: .25rem 1.5rem;
+							text-decoration: none;
+							text-transform: uppercase;
+
+
+
+  }
+
+ul {
+    list-style-type: none;
+}
+ */
+
+
+
+section, footer {
+  padding: 100px 150px 120px 150px;
+}
+
+
+
+img {
+    display: inline;
+    margin: 30 auto;
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+}
+
+section p {
+  max-width: 500px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row;
+  justify-content: space-around;
+  text-align: left;
+  background-color: #f3e5f5;
+  padding: 1px;
+}
+
+/* footer p {
+  display: flex;
+  flex-direction: row;
+} */
+
+div.fade-bg {
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffdc73;
+  z-index: -1;
+  opacity: 0;
+
+}
