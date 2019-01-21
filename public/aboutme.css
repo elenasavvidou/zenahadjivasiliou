@@ -1,5 +1,5 @@
 body {
-  font-family: 'Noto Serif TC', serif;
+  font-family: 'Noto Serif TC';
   font-size: 13px;
   line-height: 1.5;
   background-color: #ffffff;
@@ -38,7 +38,7 @@ section p.about {
 
 a {
   color: black;
-  font-weight: bold;
+  /* font-weight: bold; */
   text-decoration: none;
   text-shadow: 2px 2px #f2eaf9;
 }
