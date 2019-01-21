@@ -18,4 +18,4 @@ function makeSpans(selector) {
   })
 }
 
-makeSpans('.wrapper')
+makeSpans(".this")

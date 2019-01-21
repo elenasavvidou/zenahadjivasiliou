@@ -17,7 +17,7 @@ $(document).on("scroll", function () {
 
 
 
-
-$(window).scroll(function(){
-    $("#theFixed").css("top",Math.max(0, 5 -$(this).scrollTop()));
-});
+// 
+// $(window).scroll(function(){
+//     $("#theFixed").css("top",Math.max(0, 5 -$(this).scrollTop()));
+// });

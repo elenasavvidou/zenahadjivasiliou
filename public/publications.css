@@ -59,7 +59,7 @@ body {
 
 
 .publications p {
-  font-size: 1em;
+  font-size: 0.9em;
   padding-left: 150px;
   max-width: 1000px;
 }
@@ -70,7 +70,9 @@ h2 {
   max-width: 1000px;
 }
 
-h1 {
+
+main.h1 {
+  font-size: 1.2em;
   padding-left: 50px;
   max-width: 1000px;
 }

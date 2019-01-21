@@ -167,3 +167,23 @@ background-color: #f3e5f5;
 .page-footer ul li:not(:last-child) {
   margin-right: 30px;
 }
+
+
+.this span {
+  transition: color 1s;
+}
+
+.this span:hover {
+  transition: color 0s;
+}
+
+.this span:nth-child(1n):hover {
+  color: gold;
+}
+
+.this span:nth-child(2n):hover {
+  color: orange;
+}
+.this span:nth-child(3n):hover {
+  color: papayawhip;
+}
