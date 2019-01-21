@@ -68,12 +68,14 @@ body {
 h2 {
   padding-left: 50px;
   max-width: 1000px;
+    font-weight: 100;
 }
 
 
-main.h1 {
-  font-size: 1.2em;
+main .pub {
+  font-size: 1.9em;
   padding-left: 50px;
+    font-weight: 100;
   max-width: 1000px;
 }
 
