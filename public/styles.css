@@ -193,12 +193,13 @@ background-color: #f3e5f5;
 _________________ MOBILE _________________
 */
 
-
+/* iphone, galaxy s */
 @media only screen
   and (min-device-width: 320px)
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
+  and (orientation: portrait)
+  {
 
 
   .wrapper {
@@ -247,12 +248,12 @@ _________________ MOBILE _________________
 }
 
   .intro-img {
-      width: 250px;
+      width: 180px;
       max-width: 100%;
-      height: 250px;
+      height: 180px;
       overflow: hidden;
       border-radius: 50%;
-      padding: 30px;
+      padding: 40px;
 
   }
 
@@ -283,5 +284,49 @@ _________________ MOBILE _________________
       justify-content: space-around;
       background-color: #f3e5f5;
   }
+
+}
+
+
+/* ipone 5 */
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+    .page-header h1 {
+    font-size: 2em;
+    font-weight: 100;
+    text-decoration: none;
+    text-shadow: 2px 2px #f2eaf9;
+    position: absolute;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.page-main h1 {
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+}
+
+
+.wrapper > * {
+    padding: 10px;
+}
+
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 25px;
+    padding: 10px;
+}
 
 }
