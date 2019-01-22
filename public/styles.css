@@ -187,3 +187,101 @@ background-color: #f3e5f5;
 .this span:nth-child(3n):hover {
   color: papayawhip;
 }
+
+
+/*
+_________________ MOBILE _________________
+*/
+
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .wrapper > * {
+    padding: 20px;
+}
+
+.page-main div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 600px;
+    margin: 0px;
+}
+
+  .page-header h1 {
+      font-size: 2.3em;
+      font-weight: 100;
+      text-decoration: none;
+      text-shadow: 2px 2px #f2eaf9;
+      position: fixed;
+      padding-top: 0px;
+      margin-top: 0px;
+      margin-bottom: 50px;
+  }
+
+  .page-main {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    min-height: 550px;
+}
+
+.page-main h1 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+
+}
+
+  .intro-img {
+      width: 250px;
+      max-width: 100%;
+      height: 250px;
+      overflow: hidden;
+      border-radius: 50%;
+      padding: 30px;
+
+  }
+
+
+/* nav */
+
+  h1.item-heading {
+      display: flex;
+      justify-content: center;
+      font-size: 1rem;
+  }
+
+  nav ul img {
+    width: 20vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 10px;
+
+}
+
+/* footer */
+
+  .page-footer {
+      display: flex;
+      flex-direction: column;
+      text-align: start;
+      justify-content: space-around;
+      background-color: #f3e5f5;
+  }
+
+}
