@@ -2,6 +2,7 @@
 * {
   font-family: 'Noto Serif', serif;
     line-height: 1.5;
+
 }
 
 
@@ -10,6 +11,7 @@ ul {
 }
 
 a {
+  cursor: pointer;
   text-decoration: none;
   color: inherit;
   text-shadow: 2px 2px #f2eaf9;
@@ -20,6 +22,8 @@ body {
   /* IE FIX */
   display: flex;
   flex-direction: column;
+      background-color: #ffdc73;
+      /* rgba(247, 208, 70, 0.07) */
 }
 
 /* CONTAINER
@@ -31,7 +35,8 @@ body {
 }
 
 .wrapper > * {
-  padding: 20px 20px 1px 20px;
+  /* padding: 20px 20px 1px 20px; */
+    padding: 20px 20px 1px 20px;
 }
 
 
@@ -105,6 +110,23 @@ nav ul img {
 h1.item-heading {
   display: flex;
   justify-content: center;
+  cursor: pointer;
+}
+
+.item-image {
+  cursor: pointer;
+  /* border-style: solid;
+  border-color: rgb(131, 228, 100); */
+}
+
+.item-image:hover {
+
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+  -moz-box-shadow: 0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+  box-shadow: 0px 0px 30px 0px rgba(0, 255, 0, 0.67);
 }
 
 /* MAIN
@@ -114,7 +136,7 @@ h1.item-heading {
     flex-direction: row;
   /* flex-direction: column; */
   justify-content: center;
-  flex-grow: 1;
+  /* flex-grow: 1; */
   min-height: 550px;
 }
 
@@ -169,6 +191,20 @@ background-color: #f3e5f5;
 }
 
 
+
+div.fade-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: #ffdc73; */
+  background-color: white;
+  z-index: -1;
+  opacity: 0;
+}
+
+
 .this span {
   transition: color 1s;
 }
@@ -187,6 +223,7 @@ background-color: #f3e5f5;
 .this span:nth-child(3n):hover {
   color: papayawhip;
 }
+
 
 
 /*
@@ -241,11 +278,13 @@ _________________ MOBILE _________________
     min-height: 550px;
 }
 
+
 .page-main h1 {
     margin-bottom: 20px;
     font-size: 1.5rem;
 
 }
+
 
   .intro-img {
       width: 180px;
@@ -342,15 +381,50 @@ nav ul {
 
 
 @media only screen
-  and (min-device-width: 768px)
+  and (min-device-width: 1024px)
   and (max-device-width: 1366px)
   and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait)
  {
 
-     .introimgp {
-       display: flex;
-       flex-direction: row;
-       justify-content: center;
-     }
+   .page-header h1 {
+       position: ;
+       font-size: 3.8em;
+       font-weight: 100;
+       text-decoration: none;
+       position: absolute;
+       padding-top: 0px;
+       margin-top: 0px;
+       margin-bottom: 50px;
+   }
+
+     .intro-img {
+    width: vw;
+    width: 25vw;
+    max-width: 100%;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.page-main {
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: column; */
+    justify-content: center;
+    flex-grow: 1;
+    min-height: 650px;
+}
+
+.page-main div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    /* max-width: 500px; */
+    margin: 20px;
+    font-size: larger;
+}
 
  }

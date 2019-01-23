@@ -127,8 +127,6 @@ section .item-image {
   cursor: pointer;
   border-style: solid;
   border-color: rgb(131, 228, 100);
-  /* border: 2px 1px rgb(167, 216, 249); */
-  /* box-shadow: 2px 1px rgb(167, 216, 249); */
 }
 
 section .item-image:hover {

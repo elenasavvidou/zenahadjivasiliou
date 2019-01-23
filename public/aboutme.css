@@ -103,7 +103,20 @@ h1.item-heading {
   justify-content: center;
 }
 
+.item-image {
+  cursor: pointer;
+  /* border-style: solid;
+  border-color: rgb(131, 228, 100); */
+}
 
+.item-image:hover {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+  -moz-box-shadow: 0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+  box-shadow: 0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+}
 
 
 /* MAIN
@@ -189,3 +202,84 @@ h1.aboutme {
 .this span:nth-child(3n):hover {
   color: papayawhip;
 }
+
+
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      justify-content: center;
+      padding: 10px;
+    }
+
+    .wrapper > * {
+      padding: 10px;
+  }
+
+  .page-header h1 {
+      font-size: 2.3em;
+      font-weight: 100;
+      text-decoration: none;
+      text-shadow: 2px 2px #f2eaf9;
+      position: absolute;
+      padding-top: 0px;
+      margin-top: 0px;
+      margin-bottom: 50px;
+  }
+
+
+  .page-main div {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
+      max-width: 600px;
+      margin: 10px;
+          font-size: 1em;
+  }
+
+  .page-main {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    min-height: 50px;
+    margin: 0px;
+}
+
+/* .about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
+
+    h1.item-heading {
+        display: flex;
+        justify-content: center;
+        font-size: 1rem;
+    }
+
+    nav ul img {
+      width: 20vw;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding-left: 10px;
+
+  }
+
+
+  .page-footer {
+      display: flex;
+      flex-direction: column;
+      text-align: start;
+      justify-content: space-around;
+      background-color: #f3e5f5;
+  }
+
+  {
