@@ -22,8 +22,8 @@ body {
   /* IE FIX */
   display: flex;
   flex-direction: column;
-      background-color: #ffdc73;
-      /* rgba(247, 208, 70, 0.07) */
+  background-color: #ffdc73;
+
 }
 
 /* CONTAINER
@@ -35,7 +35,7 @@ body {
 }
 
 .wrapper > * {
-  /* padding: 20px 20px 1px 20px; */
+
     padding: 20px 20px 1px 20px;
 }
 
