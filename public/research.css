@@ -212,3 +212,23 @@ background-color: #f3e5f5;
 .page-footer ul li:not(:last-child) {
   margin-right: 30px;
 }
+
+
+/* @media (max-height: 500px) {
+  header, section {
+    position: static;
+  }
+} */
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait */
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+  
+}

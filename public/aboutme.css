@@ -293,4 +293,52 @@ div.fade-bg {
       background-color: #f3e5f5;
   }
 
-  {
+
+}
+
+
+
+    /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+    /* Portrait */
+
+    @media only screen
+      and (min-device-width: 320px)
+      and (max-device-width: 568px)
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: portrait) {
+
+                .page-header h1 {
+                    font-size: 2em;
+                    font-weight: 100;
+                    text-decoration: none;
+                    text-shadow: 2px 2px #f2eaf9;
+                    position: absolute;
+                    padding-top: 0px;
+                    margin-top: 0px;
+                    margin-bottom: 50px;
+                }
+
+                .page-main div {
+                    display: flex;
+                    flex-wrap: wrap;
+                    flex-direction: column;
+                    justify-content: center;
+                    max-width: 600px;
+                    padding-top: 20px;
+                    /* margin-top: 20px; */
+                    margin: 10px;
+                    font-size: 1em;
+                }
+
+                nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 30px;
+    padding: 0px;
+}
+    }

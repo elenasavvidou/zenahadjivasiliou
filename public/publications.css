@@ -212,3 +212,78 @@ background-color: #f3e5f5;
 .this span:nth-child(3n):hover {
   color: papayawhip;
 }
+
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait */
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+    body {
+
+    font: 8px/1.5 "Dosis", sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.page-header h1 {
+    font-size: 3.3em;
+    font-weight: 100;
+    text-decoration: none;
+    text-shadow: 2px 2px #f2eaf9;
+    /* position: fixed; */
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.publications p {
+    font-size: 0.9em;
+    padding-left: 0px;
+    max-width: 1000px;
+    text-align: justify;
+}
+
+h2 {
+    padding-left: 0px;
+    max-width: 1000px;
+    font-weight: 100;
+}
+
+nav {
+    font-family: inherit;
+    font-size: 8px;
+    padding: 0px;
+    margin:0px;
+}
+
+nav ul {
+    /* margin-top: 25px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 0px;
+    padding: 30px;
+}
+
+.page-footer {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-around;
+    background-color: #f3e5f5;
+        padding: 0px;
+}
+
+.page-footer ul {
+    display: flex;
+    font-size: 0.5rem;
+}
+
+}
