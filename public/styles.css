@@ -263,12 +263,6 @@ div.fade-bg {
      margin-top: 0px;
      margin-bottom: 0px;
  }
- /* .publications p {
-     font-size: 0.9em;
-     padding-left: 0px;
-     max-width: 1000px;
-     text-align: justify;
- } */
 
  h2 {
      padding-left: 0px;
@@ -402,4 +396,68 @@ nav {
     display: flex;
     font-size: 0.8rem;
 }
+ }
+
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+ @media only screen
+   and (min-device-width: 375px)
+   and (max-device-width: 667px)
+   and (-webkit-min-device-pixel-ratio: 2)
+   and (orientation: portrait) {
+
+     body {
+
+     font: 12px "Noto Serif", sans-serif;
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+  }
+
+
+  .page-header h1 {
+      font-size: 3em;
+      font-weight: 100;
+      text-decoration: none;
+      text-shadow: 2px 2px #f2eaf9;
+      position: absolute;
+      padding-top: 0px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+  }
+
+     .page-main div {
+         display: flex;
+         flex-wrap: wrap;
+         flex-direction: column;
+         justify-content: center;
+         max-width: 900px;
+         margin: 20px;
+         font-size: 12px;
+     }
+
+     .intro-img {
+       display: flex;
+       justify-content: center;
+       width: 55vw;
+       max-width: 100%;
+       height: 200px;
+       /* position: relative; */
+       overflow: hidden;
+       border-radius: 50%;
+       padding: 4vh;
+       margin: 10px;
+   }
+
+     nav {
+         font-family: inherit;
+         font-size: 12px;
+         padding: 0px;
+         margin: 0px;
+     }
+     .page-footer ul {
+         display: flex;
+         font-size: 0.8rem;
+     }
+
  }
