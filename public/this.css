@@ -1,0 +1,128 @@
+
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      justify-content: center;
+      padding: 10px;
+    }
+
+    .wrapper > * {
+      padding: 10px;
+  }
+
+  .page-header h1 {
+      font-size: 2.3em;
+      font-weight: 100;
+      text-decoration: none;
+      text-shadow: 2px 2px #f2eaf9;
+      position: absolute;
+      padding-top: 0px;
+      margin-top: 0px;
+      margin-bottom: 50px;
+  }
+
+
+  .page-main div {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
+      max-width: 600px;
+      margin: 10px;
+          font-size: 1em;
+  }
+
+  .page-main {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    min-height: 50px;
+    margin: 0px;
+}
+
+/* .about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
+
+    h1.item-heading {
+        display: flex;
+        justify-content: center;
+        font-size: 1rem;
+    }
+
+    nav ul img {
+      width: 20vw;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding-left: 10px;
+
+  }
+
+
+  .page-footer {
+      display: flex;
+      flex-direction: column;
+      text-align: start;
+      justify-content: space-around;
+      background-color: #f3e5f5;
+  }
+
+
+}
+
+
+
+    /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+    /* Portrait */
+
+    @media only screen
+      and (min-device-width: 320px)
+      and (max-device-width: 568px)
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: portrait) {
+
+                .page-header h1 {
+                    font-size: 2em;
+                    font-weight: 100;
+                    text-decoration: none;
+                    text-shadow: 2px 2px #f2eaf9;
+                    position: absolute;
+                    padding-top: 0px;
+                    margin-top: 0px;
+                    margin-bottom: 50px;
+                }
+
+                .page-main div {
+                    display: flex;
+                    flex-wrap: wrap;
+                    flex-direction: column;
+                    justify-content: center;
+                    max-width: 600px;
+                    padding-top: 20px;
+                    /* margin-top: 20px; */
+                    margin: 10px;
+                    font-size: 1em;
+                }
+
+                nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 30px;
+    padding: 0px;
+}
+    }
