@@ -214,21 +214,47 @@ background-color: #f3e5f5;
 }
 
 
-/* @media (max-height: 500px) {
-  header, section {
-    position: static;
-  }
-} */
+/* ---------------------------------------------------------------------------- */
 
-/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
 
-/* Portrait */
+@media (min-width: 768px) and (max-width: 1024px) {
 
-@media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
 
   
+
 }
