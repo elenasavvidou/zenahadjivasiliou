@@ -13,16 +13,16 @@
 .this span:nth-child(2n):hover {
   color: orange;
 }
+
 .this span:nth-child(3n):hover {
   color: papayawhip;
 }
 
-
 body {
   font-family: 'Noto Serif', serif;
-  font-size: 16px;
+  /* font-size: 16px; */
+  font-size: 1.3vw;
   line-height: 1.5;
-
   background-color: white;
   color: #000000;
 }
@@ -31,7 +31,6 @@ ul {
   list-style: none;
 }
 
-
 a {
   text-decoration: none;
   color: inherit;
@@ -39,18 +38,15 @@ a {
 }
 
 header {
-
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
-font-size: 25px;
-font-weight: 100;
-text-decoration: none;
-text-shadow: 2px 2px #f2eaf9;
+  font-size: 25px;
+  font-weight: 100;
+  text-decoration: none;
+  text-shadow: 2px 2px #f2eaf9;
   padding: 30px;
-
-/* display: block; */
+  /* display: block; */
   top: 0;
   position: sticky;
   position: -webkit-sticky;
@@ -63,7 +59,6 @@ section {
   position: sticky;
   position: -webkit-sticky;
 }
-
 
 section.developmental {
   background-color: rgb(212, 231, 236);
@@ -82,64 +77,55 @@ section.growth {
 } */
 
 section.mating {
- background-color: rgb(251, 173, 110);
-
+  background-color: rgb(251, 173, 110);
 }
+
 /*
 section .mating p {
 max-width: 30em;
 } */
 
 section.mitochondrial {
- background-color: rgb(239, 215, 166)
+  background-color: rgb(239, 215, 166)
 }
-
 
 /* section.mitochondrial p {
  max-width: 30em;
 } */
 
 section.love {
-   min-height: 100vh;
-   display: flex;
-   align-items: center;
-   justify-content: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 section.love p {
   max-width: 1000px;
 }
 
-
 /* NAV */
 
 .nav {
   background-color: white;
-
 }
 
 section nav {
   display: flex;
   flex-direction: column;
- /* min-height: 100vh; */
+  /* min-height: 100vh; */
   align-items: center;
-
-/* padding-top: 20px; */
-
-
+  /* padding-top: 20px; */
 }
 
 nav ul {
-
-display: flex;
-flex-wrap: wrap;
-justify-content: space-around;
-flex-direction: row;
-
-width: 100%;
-/* margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 100%;
+  /* margin-top: 25px;
 padding:30px; */
-
 }
 
 nav ul li:not(:last-child) {
@@ -155,10 +141,10 @@ nav {
 }
 
 nav ul img {
-    width: 20vw;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
+  width: 20vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 h1.item-heading {
@@ -185,34 +171,32 @@ h1.item-heading {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
-font-size: 50px;
-font-weight: 100;
-text-decoration: none;
-text-shadow: 2px 2px #f2eaf9;
+  font-size: 50px;
+  font-weight: 100;
+  text-decoration: none;
+  text-shadow: 2px 2px #f2eaf9;
   padding: 10px;
 }
 
 /* FOOTER */
+
 .page-footer {
   display: flex;
   flex-direction: row;
   flex-flow: row;
   text-align: left;
-    justify-content: space-around;
-background-color: #f3e5f5;
+  justify-content: space-around;
+  background-color: #f3e5f5;
 }
 
 .page-footer ul {
   display: flex;
   font-size: 0.9rem;
-
 }
 
 .page-footer ul li:not(:last-child) {
   margin-right: 30px;
 }
-
 
 /* ---------------------------------------------------------------------------- */
 
@@ -221,40 +205,25 @@ background-color: #f3e5f5;
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 768px) and (max-width: 1024px) {
-
-
-}
+@media (min-width: 768px) and (max-width: 1024px) {}
 
 /*
   ##Device = Tablets, Ipads (landscape)
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-
-
-
-}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {}
 
 /*
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
   ##Screen = B/w 481px to 767px
 */
 
-@media (min-width: 481px) and (max-width: 767px) {
-
-
-
-}
+@media (min-width: 481px) and (max-width: 767px) {}
 
 /*
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
 */
 
-@media (min-width: 320px) and (max-width: 480px) {
-
-  
-
-}
+@media (min-width: 320px) and (max-width: 480px) {}
