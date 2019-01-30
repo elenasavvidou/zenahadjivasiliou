@@ -42,6 +42,7 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   font-size: 25px;
+  /* font-size: 2vw; */
   font-weight: 100;
   text-decoration: none;
   text-shadow: 2px 2px #f2eaf9;
@@ -219,11 +220,103 @@ h1.item-heading {
   ##Screen = B/w 481px to 767px
 */
 
-@media (min-width: 481px) and (max-width: 767px) {}
+@media (min-width: 481px) and (max-width: 767px) {
+  body {
+    font-family: 'Noto Serif', serif;
+    /* font-size: 16px; */
+    font-size: 3vw;
+    width: 100%;
+    line-height: 1.5;
+    background-color: white;
+    color: #000000;
+}
+}
 
 /*
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
 */
 
-@media (min-width: 320px) and (max-width: 480px) {}
+@media (min-width: 320px) and (max-width: 480px) {
+  body {
+    font-family: 'Noto Serif', serif;
+    /* font-size: 16px; */
+    font-size: 3vw;
+    width: 85%;
+    line-height: 1.5;
+    background-color: white;
+    color: #000000;
+
+}
+
+
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 3.5vw;
+    width: 100%;
+    font-weight: 100;
+    text-decoration: none;
+    text-shadow: 2px 2px #f2eaf9;
+    /* padding: 30px; */
+    top: 0;
+    position: sticky;
+    position: -webkit-sticky;
+}
+
+section {
+    width: 100%;
+    padding: 30px;
+    display: block;
+    top: 0;
+    position: sticky;
+    position: -webkit-sticky;
+}
+
+.zh {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 9vw;
+    font-weight: 100;
+    text-decoration: none;
+    text-shadow: 2px 2px #f2eaf9;
+    padding: 0px;
+}
+
+nav {
+  font-family: inherit;
+  font-size: 8px;
+  padding: 0px;
+  margin: 0px;
+}
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 90%;
+  margin-top: 0px;
+  padding: 30px;
+}
+
+h1.item-heading {
+    display: flex;
+    justify-content: center;
+    font-size: 4vw;
+}
+.page-footer {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  justify-content: space-around;
+  background-color: #f3e5f5;
+  padding: 0px;
+}
+.page-footer ul {
+  display: flex;
+  font-size: 0.5rem;
+}
+}
