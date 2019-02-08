@@ -1,5 +1,4 @@
-
-$(document).on("scroll", function () {
+$(document).on("scroll", function() {
 
   var scrollTop = $(document).scrollTop()
 
